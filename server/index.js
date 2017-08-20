@@ -1,4 +1,4 @@
 import test from './test'
 
 test('Hello World!')
-console.log('Are you still building?');
+console.log('Are you still building?')
