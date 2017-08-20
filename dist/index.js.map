@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/index.js"],"names":["console","log"],"mappings":";;AAAA;;;;;;AAEA,oBAAK,cAAL;AACAA,QAAQC,GAAR,CAAY,yBAAZ","file":"index.js","sourcesContent":["import test from './test'\n\ntest('Hello World!')\nconsole.log('Are you still building?');\n"]}
