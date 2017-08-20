@@ -1,0 +1,29 @@
+{
+  "name": "babel-nodejs-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"start": "node bin/dev",
+		"clean": "rm -rf dist",
+		"build": "npm run clean && mkdir dist && babel server -s -d dist",
+		"production": "npm run build && node bin/production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pporche87/babel-nodejs-setup.git"
+  },
+  "author": "Patrick Porche <pporche87@gmail.com> (http://pporche87.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pporche87/babel-nodejs-setup/issues"
+  },
+  "homepage": "https://github.com/pporche87/babel-nodejs-setup#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
